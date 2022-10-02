@@ -1,0 +1,29 @@
+Parameters to change:
+
+Important VISION:
+Image size
+Erosion mask size (line)
+min_circle_pxls: Min number of pixels in circle edge
+min_rad: Minimum radius of landing circle
+max_rad: Maximum radius of landing circle
+max_rms: Maximum RMS value for circle fit
+min_red_portion: Minimum portion of pixels that are red inside circle
+Erosion mask size (landing)
+
+Important CONTROL:
+kd: direction error derivative coefficient
+alpha: speed target
+landing gain: Currently 1e-5 found in gain block 
+Landing max speed: currently 1e-4 found in block
+Landing position error: Currently 5 found in block
+stop height (landing pause): 0.4 found in descend fcn
+land from stop height min speed: 1e-3 found in descend fcn
+
+
+Less Important VISION:
+Inner arc radius
+Outer arc radius
+Arc thickness
+
+Less Important CONTROL:
+Power curve function
